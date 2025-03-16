@@ -379,3 +379,221 @@ a {
 }
 
 
+.login-container {
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #999;
+  font-size: 14px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px 8px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.login-form input:focus {
+  border-bottom-color: #000;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.options .remember input {
+  margin-right: 5px;
+}
+
+.options .forgot {
+  color: red;
+  text-decoration: none;
+}
+
+.options .forgot:hover {
+  text-decoration: underline;
+}
+
+.login-form button {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  background-color: darkred;
+}
+
+.reg-logo {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.reg{
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.left-content {
+  width: 100%;
+  max-width: 400px;
+}
+
+.left-content h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Правая половина */
+.right {
+  flex: 1;
+  background-image: url(reg-bg.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #111;
+  text-align: center;
+}
+
+.right .overlay {
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.right .overlay h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.right .overlay p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Форма */
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #777;
+  font-size: 14px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  font-size: 16px;
+  outline: none;
+}
+
+.login-form input:focus {
+  border-bottom-color: #000;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.options .remember input {
+  margin-right: 5px;
+}
+
+.options .forgot {
+  color: red;
+}
+
+.options .forgot:hover {
+  text-decoration: underline;
+}
+
+.login-form button {
+  background-color: red;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-form button:hover {
+  background-color: darkred;
+}
+
+.overlay-main {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.overlay-content {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.login-login {
+  text-align: center;
+  margin-top: 40px;
+}
+.login-login a {
+  color: red;
+}
+
+.login-login a:hover {
+  text-decoration: underline;
+}
